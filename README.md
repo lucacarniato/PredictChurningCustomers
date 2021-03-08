@@ -18,8 +18,10 @@ The notebook is organized as follow:
     + A data preprocessing pipeline is built, removing the outliers identified in the previous step and standardizing each feature.
     + Highly correlated features are removed, identifing highly correleted feature pairs
     + Highly multicollinear features are removed, estimating the variance inflation factor
+	
 
 + In Section 3, XGBoost is used as a model for predicting churned/not churned customers. Model hyperparameters are searched as follow:
     + An objective function is defined. The objective function computes the average value of the cross-validation score on the training dataset, using the negative log loss as a scoring metric
-    + The maximum value of the objective function is searched using the Bayesian framework Optuna [https://optuna.org/]
-    + On the test dataset, the recall value is 0.927
+    + Being the dataset strongly imbalanced, the minority class is oversampled using SMOTE and the majority class randomly undersampled. This process is repeated on each train set of the cross validation fold.
+	+ The maximum value of the objective function is searched using the Bayesian framework Optuna [https://optuna.org/]
+    + On the test dataset, the recall value is 0.9490
