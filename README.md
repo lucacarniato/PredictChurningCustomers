@@ -1,6 +1,6 @@
 # Predicting-customer-churn-competition
 
-A solution of the [credit card customers competition](https://www.kaggle.com/sakshigoyal7/credit-card-customersa).
+A solution of the [credit card customers competition](https://www.kaggle.com/sakshigoyal7/credit-card-customers).
 
 The goal of this project is to predict the customers who want to cancel a credit card program, such that actions can be taken to prevent the event from happening.
 
