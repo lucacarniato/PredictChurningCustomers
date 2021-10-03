@@ -1,4 +1,4 @@
-# Predicting-customer-churn-competition
+# Predicting-customer-churn-kaggle-competition
 
 A solution of the [credit card customers competition](https://www.kaggle.com/sakshigoyal7/credit-card-customers).
 
