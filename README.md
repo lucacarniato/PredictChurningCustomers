@@ -1,4 +1,5 @@
-# Predicting Churning customers
+# Predicting-customer-churn-competition
+
 
 The goal of this project is to predict the customers who want to cancel a credit card program, such that actions can be taken to prevent the event from happening.
 
